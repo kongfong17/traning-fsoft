@@ -1,0 +1,25 @@
+.table {
+    background: #F9F5EB;
+    width: 100%;
+    padding-bottom: 1rem;
+    color: #E4DCCF;
+    margin-bottom: 0;
+}
+
+.table tbody tr:focus-visible {
+    outline: none;
+}
+
+.table tbody tr td:first-child {
+    background-color: #FFE5CA;
+    color: #FA9884;
+}
+
+.table th,
+.table td {
+    white-space: nowrap;
+}
+
+.active-row {
+    background-color: #EA5455;
+}
